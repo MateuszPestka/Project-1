@@ -1,3 +1,12 @@
-body {
-    color: green;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header > h1 {
+    color: blue;
+    font-family: Bree serif, sans-serif;
 }
