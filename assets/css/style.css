@@ -10,3 +10,15 @@ header > h1 {
     color: blue;
     font-family: Bree serif, sans-serif;
 }
+
+#name {
+    float: left;
+}
+
+#menu {
+    float: right;
+}
+
+#logo, #name {
+    line-height: 75px;
+}
