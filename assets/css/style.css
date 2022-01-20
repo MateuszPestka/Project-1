@@ -16,16 +16,36 @@ body {
 
 header {
     font-family: Bebas Neue, arial, sans-serif;
-    background-color: #E2E2E2;
+    background-color: black;
+    overflow: auto;
 }
 
 #logo {
     font-weight: 400;
     font-size: 300%;
     float: left;
-    margin: 10px 0 0 10px;
     color: #4C956C;
 }
 
 /*navigation links*/
 
+#menu {
+    font-size: 150%;
+}
+
+#menu li {
+    display: block;
+    float: right;
+    list-style-type: none;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #4C956C;
+}
+
+#menu, #logo {
+    line-height: 4.6rem;
+}
