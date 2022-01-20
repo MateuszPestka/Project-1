@@ -6,19 +6,26 @@
     border: none;
 }
 
-header > h1 {
-    color: blue;
-    font-family: Bree serif, sans-serif;
+body {
+    font-family: Bree Serif, Sans-Serif, Arial;
+    font-weight: 200;
+    color: green;
 }
 
-#name {
+/*header and logo*/
+
+header {
+    color: green;
+    font-family: Bebas Neue, arial, sans-serif;
+    background-color: gray;
+}
+
+#logo {
+    font-weight: 400;
+    font-size: 300%;
     float: left;
+    margin: 10px 0 0 10px;
 }
 
-#menu {
-    float: right;
-}
+/*navigation links*/
 
-#logo, #name {
-    line-height: 75px;
-}
