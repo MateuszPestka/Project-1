@@ -15,9 +15,8 @@ body {
 /*header and logo*/
 
 header {
-    color: green;
     font-family: Bebas Neue, arial, sans-serif;
-    background-color: gray;
+    background-color: #E2E2E2;
 }
 
 #logo {
@@ -25,6 +24,7 @@ header {
     font-size: 300%;
     float: left;
     margin: 10px 0 0 10px;
+    color: #4C956C;
 }
 
 /*navigation links*/
