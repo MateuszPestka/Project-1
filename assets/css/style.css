@@ -193,8 +193,15 @@ header {
 
 /*Social media links*/
 
-footer {
+
+
+
+footer div {
+    font-family: Lobster, arial, sans-serif;
     height: 300px;
+    font-size: 250%;
+    margin-left: 5.2rem;
+    margin-top: 30px;
 }
 
 .social {
@@ -206,8 +213,7 @@ footer {
 }
 
 .social i {
-    font-size: 160%;
-    padding: 2%;
-    margin: 1%;
+    font-size: 200%;
     color: #1F5B3A;
+    padding: 5%;
 }
