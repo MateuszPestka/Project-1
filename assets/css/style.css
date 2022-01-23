@@ -138,27 +138,28 @@ header {
 .right {
     height: 300px;
 }
+/*Background images for packages*/
 
 #package1 {
-    background-color: black;
+    background-image: url("../images/packimage1.jpg");
     background-repeat: no-repeat;
     transition: .2s;
 }
 
 #package2 {
-    background-color: black;
+    background-image: url("../images/packimage3.jpg");
     background-repeat: no-repeat;
     transition: .2s;
 }
 
 #package3 {
-    background-color: black;
+    background-image: url("../images/packimage2.jpg");
     background-repeat: no-repeat;
     transition: .2s;
 }
 
 #package4 {
-    background-color: black;
+    background-image: url("../images/packimage4.jpg");
     background-repeat: no-repeat;
     transition: .2s;
 }
@@ -166,9 +167,11 @@ header {
 .package:hover {
     transform: scale(1.1);
 }
+/*Text over packages*/
 
 .overlay-text {
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
     display: block;
     text-align: center;
     height: 150px;
@@ -176,4 +179,8 @@ header {
     margin: 0 auto;
     top: 50%;
     transform: translate(0, 50%);
+}
+
+.overlay-text h2 {
+    text-transform: capitalize;
 }
