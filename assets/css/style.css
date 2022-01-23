@@ -188,3 +188,26 @@ header {
 #left-pack a, #right-pack a {
     text-decoration: none;
 }
+
+/*Footer*/
+
+/*Social media links*/
+
+footer {
+    height: 300px;
+}
+
+.social {
+    text-align: right;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 160%;
+    padding: 2%;
+    margin: 1%;
+    color: #1F5B3A;
+}
