@@ -171,7 +171,7 @@ header {
 
 .overlay-text {
     background-color: rgba(255, 255, 255, 0.5);
-    color: black;
+    color: #000;
     display: block;
     text-align: center;
     height: 150px;
@@ -183,4 +183,14 @@ header {
 
 .overlay-text h2 {
     text-transform: capitalize;
+}
+
+/*Link from packages to contact us*/
+
+#left-pack a {
+    text-decoration: none;
+}
+
+#right-pack a {
+    text-decoration: none;
 }
