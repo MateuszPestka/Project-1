@@ -10,12 +10,13 @@ body {
     font-family: Bree Serif, Sans-Serif, Arial;
     font-weight: 200;
     color: green;
+    background-color: #F8F4E3;
 }
 
 /*header and logo*/
 
 header {
-    font-family: Lobster, Bebas Neue, arial, sans-serif;
+    font-family: Lobster, arial, sans-serif;
     background-color: #F8F4E3;
     overflow: auto;
 }
@@ -78,22 +79,39 @@ header {
 
 @keyframes slideBg {
     0% {
-        background-image: url("../images/image1.jpg");
+        background-image: url("../images/image1.jpg"), url("../images/image3.jpg");
     }
 
     25% {
-        background-image: url("../images/image3.jpg");
+        background-image: url("../images/image3.jpg"), url("../images/image2.jpg");
     }
 
     50% {
-        background-image: url("../images/image2.jpg");
+        background-image: url("../images/image2.jpg"), url("../images/image4.jpg");
     }
 
     75% {
-        background-image: url("../images/image4.jpg");
+        background-image: url("../images/image4.jpg"), url("../images/image5.jpg");
     }
 
     100% {
-        background-image: url("../images/image5.jpg");
+        background-image: url("../images/image5.jpg"), url("../images/image5.jpg");
     }
+}
+
+/*About section*/
+
+#about {
+    text-align: center;
+}
+
+#about h2 {
+    text-transform: capitalize;
+    font-family: Bree Serif, Pacifico, Arial;
+    font-size: xx-large;
+}
+
+#about div {
+    max-width: 1000px;
+    margin: 0 auto;
 }
