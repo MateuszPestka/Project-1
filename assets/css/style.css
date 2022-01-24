@@ -164,7 +164,7 @@ header {
     background-repeat: no-repeat;
     transition: .2s;
 }
-
+ /*Transition for packages pop up*/
 .package:hover {
     transform: scale(1.1);
 }
@@ -175,8 +175,8 @@ header {
     color: #000;
     display: block;
     text-align: center;
-    height: 150px;
-    width: 500px;
+    height: 9.375rem;
+    width: 31.25rem;
     margin: 0 auto;
     top: 50%;
     transform: translate(0, 50%);
@@ -188,7 +188,7 @@ header {
 }
 
 .overlay-text p {
-    font-size: large;
+    font-size: 105%;
 }
 
 /*Link from packages to contact us*/
@@ -224,4 +224,22 @@ footer div {
     font-size: 200%;
     color: #1F5B3A;
     padding: 5%;
+}
+
+/*For larger to medium screens 1200px and down*/
+
+@media screen and (max-width: 1200px;) {
+    #right-pack, #left-pack {
+        width: 40%;
+    }
+    
+    .overlay-text {
+        width: 50%;
+    }
+}
+
+/*For smaller screens 950px and down*/
+
+@media screen and (max-width: 959px;) {
+    
 }
