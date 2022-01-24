@@ -113,6 +113,10 @@ header {
     font-size: xx-large;
 }
 
+#about p {
+    font-size: large;
+}
+
 /*Packages and pricing section*/
 
 #left-pack {
