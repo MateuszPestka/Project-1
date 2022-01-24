@@ -164,10 +164,13 @@ header {
     background-repeat: no-repeat;
     transition: .2s;
 }
+
  /*Transition for packages pop up*/
+ /*
 .package:hover {
     transform: scale(1.1);
 }
+*/
 /*Text over packages*/
 
 .overlay-text {
@@ -221,25 +224,65 @@ footer div {
 }
 
 .social i {
-    font-size: 200%;
+    font-size: 100%;
     color: #1F5B3A;
-    padding: 5%;
+    padding: 4%;
+}
+
+@media screen and (min-width:1150px) {
+    
+    .package:hover {
+        transform: scale(1.1);
+    }
 }
 
 /*For larger to medium screens 1200px and down*/
 
-@media screen and (max-width: 1200px;) {
-    #right-pack, #left-pack {
-        width: 40%;
-    }
-    
+@media screen and (max-width: 1200px) {
+
     .overlay-text {
+        width: 28.6rem;
+        height: 9.6rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    
+    #left-pack {
         width: 50%;
+        padding-left: 0;
+    }
+
+    #right-pack {
+        width: 50%;
+        padding-right: 0;
+    }
+
+    .overlay-text {
+        width: 26rem;
+        height: 10rem;
+    }
+
+    /*Footer under 1100px*/
+    footer div {
+        text-align: center;
+        line-height: 75px;
+        font-size: 200%;
+    }
+
+    .social-div {
+        top: 50%;
+        transform: translate(0, 50%);
+    }
+
+    .social {
+        text-align: center;
+        font-size: 120%;
     }
 }
 
 /*For smaller screens 950px and down*/
 
-@media screen and (max-width: 959px;) {
+@media screen and (max-width: 950px) {
     
 }
