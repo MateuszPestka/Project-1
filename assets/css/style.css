@@ -327,7 +327,7 @@ footer div {
 
 @media screen and (max-width: 400px) {
     .overlay-text {
-        width: 24rem;
+        width: 22rem;
         height: 11rem;
         font-size: 90%;
     }
