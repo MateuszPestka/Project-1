@@ -281,8 +281,61 @@ footer div {
     }
 }
 
-/*For smaller screens 950px and down*/
+/*For smaller screens 900px and down*/
 
-@media screen and (max-width: 950px) {
-    
+@media screen and (max-width: 900px) {
+    #menu {
+        clear: left;
+        float: left;
+        line-height: 6rem;
+        margin-left: 30px;
+    }
+/*
+    #right-pack {
+        clear: right;
+        position: relative;
+    }
+    #left-pack {
+        clear: left;
+        position: relative;
+    }
+    */
+    /*
+    #package1 {
+        position: absolute;
+        background-position: 0, 50px;
+    }
+
+    #package3 {
+        position: absolute;
+        background-position: 0, 350px;
+    }
+
+    #package2 {
+        position: absolute;
+        background-position: 0, 650px;
+    }
+
+    #package4 {
+        position: absolute;
+        background-position: 0, 950px;
+    }
+    */
+    #media {
+        background: 
+        url(../images/packimage1.jpg)
+        url(../images/packimage3.jpg)
+        url(../images/packimage2.jpg)
+        url(../images/packimage4.jpg);
+    }
+
+    #right-pack, #left-pack {
+        float: none;
+        display: cover;
+        width: 100%;
+    }
+
+    #right-pack {
+        padding-top: 0;
+    }
 }
