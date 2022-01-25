@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Bree Serif, Sans-Serif, Arial;
+    font-family: 'Bree Serif', serif, arial;
     font-weight: 200;
     color: #1F5B3A;
     background-color: #F8F4E3;
@@ -16,7 +16,7 @@ body {
 /*header and logo*/
 
 header {
-    font-family: Lobster, arial, sans-serif;
+    font-family: 'Lobster', cursive;
     background-color: #F8F4E3;
     overflow: auto;
 }
@@ -109,7 +109,7 @@ header {
 
 #about h2 {
     text-transform: capitalize;
-    font-family: Bree Serif, Pacifico, Arial;
+    font-family: 'Bree Serif', serif;
     font-size: xx-large;
 }
 
@@ -166,11 +166,11 @@ header {
 }
 
  /*Transition for packages pop up*/
- /*
+ 
 .package:hover {
     transform: scale(1.1);
 }
-*/
+
 /*Text over packages*/
 
 .overlay-text {
@@ -203,12 +203,8 @@ header {
 /*Footer*/
 
 /*Social media links*/
-
-
-
-
 footer div {
-    font-family: Lobster, arial, sans-serif;
+    font-family: 'Lobster', cursive;
     height: 300px;
     font-size: 250%;
     margin-left: 5.2rem;
@@ -243,6 +239,13 @@ footer div {
     .overlay-text {
         width: 28.6rem;
         height: 9.6rem;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    
+    .package:hover {
+        transform: none;
     }
 }
 
@@ -293,7 +296,7 @@ footer div {
 
     #right-pack, #left-pack {
         float: none;
-        display: cover;
+        background-size: cover;
         width: 100%;
     }
 
