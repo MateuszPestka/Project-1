@@ -225,11 +225,12 @@ footer div {
     padding: 4%;
 }
 
-@media screen and (min-width:1150px) {
-    
-    .package:hover {
-        transform: scale(1.1);
-    }
+#form {
+    clear: left;
+    background: url(../images/background-contact.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
 }
 
 /*For larger to medium screens 1200px and down*/

@@ -12,7 +12,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     
-    
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Vegan Drop Meals</title>
 </head>
@@ -39,8 +38,27 @@
             </ul>
         </nav>
     </header>
-    <section>
-
+    <section id="form">
+        <form action="#" method="POST" class="contact-form">
+            <h2>
+                Contact us to find out more!
+                <br>
+                Or if you want to talk to our dieticians!
+            </h2>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="first_name" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10">
+            <h4>Preferred way of contact</h4>
+            <label for="pemail">Email Address:</label>
+            <input type="radio" id="pemail" name="contact_preference" value="mail" required>
+            <label for="ptel">Phone:</label>
+            <input type="radio" id="ptel" name="contact_preference" value="tel" required>
+        </form>
     </section>
     <!--Social media links-->
     <footer>
