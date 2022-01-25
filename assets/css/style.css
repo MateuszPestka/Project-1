@@ -289,45 +289,7 @@ footer div {
         float: left;
         line-height: 6rem;
         margin-left: 30px;
-    }
-/*
-    #right-pack {
-        clear: right;
-        position: relative;
-    }
-    #left-pack {
-        clear: left;
-        position: relative;
-    }
-    */
-    /*
-    #package1 {
-        position: absolute;
-        background-position: 0, 50px;
-    }
-
-    #package3 {
-        position: absolute;
-        background-position: 0, 350px;
-    }
-
-    #package2 {
-        position: absolute;
-        background-position: 0, 650px;
-    }
-
-    #package4 {
-        position: absolute;
-        background-position: 0, 950px;
-    }
-    */
-    #media {
-        background: 
-        url(../images/packimage1.jpg)
-        url(../images/packimage3.jpg)
-        url(../images/packimage2.jpg)
-        url(../images/packimage4.jpg);
-    }
+    }    
 
     #right-pack, #left-pack {
         float: none;
@@ -337,5 +299,36 @@ footer div {
 
     #right-pack {
         padding-top: 0;
+    }
+
+    footer div {
+        height: 100px;
+    }
+}
+/*For small screens (Phones) below 525px*/
+
+@media screen and (max-width: 525px) {
+
+    #menu {
+        font-size: 100%;
+        margin-left: aut;
+        /*margin-right: .5rem;*/
+    }
+
+    footer div {
+        height: 100px;
+        font-size: 150%;
+        text-align: center;
+        margin-left: auto;
+    }
+}
+
+/*For smaller phones screens below 400px*/
+
+@media screen and (max-width: 400px) {
+    .overlay-text {
+        width: 24rem;
+        height: 11rem;
+        font-size: 90%;
     }
 }
