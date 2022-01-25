@@ -311,7 +311,7 @@ footer div {
 
     #menu {
         font-size: 100%;
-        margin-left: aut;
+        margin-left: auto;
         /*margin-right: .5rem;*/
     }
 
@@ -330,5 +330,19 @@ footer div {
         width: 24rem;
         height: 11rem;
         font-size: 90%;
+    }
+
+    #logo {
+        font-size: 225%;
+    }
+
+    #menu {
+        font-size: 90%;
+        letter-spacing: .05rem;
+        margin-left: 2%;
+    }
+
+    #sign-up {
+        padding-right: 0;
     }
 }
