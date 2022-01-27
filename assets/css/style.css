@@ -119,6 +119,10 @@ header {
 
 /*Packages and pricing section*/
 
+#media {
+    height: 650px;
+}
+
 #left-pack {
     width: 45%;
     float: left;
@@ -203,27 +207,40 @@ header {
 /*Footer*/
 
 /*Social media links*/
-footer div {
+
+footer {
+    height: 150px;
+    width: 100%;
+}
+
+.footer-text {
     font-family: 'Lobster', cursive;
-    height: 300px;
-    font-size: 250%;
+    font-size: 300%;
     margin-left: 5.2rem;
-    margin-top: 30px;
+    margin-top: 20px;
+    width: 45%;
+    float: left;
+    text-align: left;
 }
 
 .social {
+    float: right;
+    width: 45%;
     text-align: right;
 }
-
+ 
 .social li {
     display: inline;
 }
-
+ 
 .social i {
-    font-size: 100%;
+    font-size: 300%;
     color: #1F5B3A;
-    padding: 4%;
+    padding-top: 50px;
+    padding-right: 10%;
 }
+
+/*Form*/
 
 #form {
     clear: left;
@@ -288,20 +305,27 @@ footer div {
     }
 
     /*Footer under 1100px*/
-    footer div {
-        text-align: center;
-        line-height: 75px;
-        font-size: 200%;
+
+    footer {
+        height: 300px;
     }
 
-    .social-div {
-        top: 50%;
-        transform: translate(0, 50%);
+    .footer-text {
+        text-align: center;
+        font-size: 300%;
+        width: 100%;
+        margin-left: 0;
     }
 
     .social {
         text-align: center;
-        font-size: 120%;
+        width: 100%;
+    }
+
+    .social i {
+        font-size: 250%;
+        padding-top: 40px;
+        padding-right: 5%;
     }
 }
 
@@ -325,8 +349,8 @@ footer div {
         padding-top: 0;
     }
 
-    footer div {
-        height: 100px;
+    #media {
+        height: 1300px;
     }
 }
 /*For small screens (Phones) below 525px*/
