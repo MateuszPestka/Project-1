@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Bree Serif', serif, arial;
+    font-family: 'Bree Serif', serif;
     font-weight: 200;
     color: #1F5B3A;
     background-color: #F8F4E3;
@@ -19,6 +19,7 @@ header {
     font-family: 'Lobster', cursive;
     background-color: #F8F4E3;
     overflow: auto;
+    border-bottom: 1px solid #1F5B3A;
 }
 
 #logo {
@@ -260,6 +261,8 @@ footer {
     padding: 10px;
     top: 50%;
     transform: translate( 0, 50%);
+    border: 1px solid rgba(248, 244, 227, 0.7);
+    border-radius: 5px;
 }
 
 .signup-text {
@@ -274,7 +277,7 @@ footer {
 
 .button {
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 4px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
@@ -284,6 +287,54 @@ footer {
     margin-left: 40%;
 }
 
+/*faq retractable secton*/
+.faq {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.faq h2 {
+    font-family:  'Bree Serif', serif;
+    font-size: 200%;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+
+.faq input {
+    display: none;
+}
+
+.faq label {
+    display: block;
+    height: 50px;
+    padding: 10px 30px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #1F5B3A;
+    transition: ease .5s;
+}
+
+.faq label:hover {
+    background-color: #F8F4E3;
+}
+
+.content {
+    background-color: #F8F4E3;
+    padding: 10px 25px;
+    border: 1px solid #1F5B3A;
+    margin: 0 0 1px 0;
+    border-radius: 3px;
+}
+
+input+label+.content{
+    display: none;
+}
+
+input:checked+label+.content {
+    display: block;
+}
 /*For larger to medium screens 1200px and down*/
 
 @media screen and (max-width: 1200px) {
