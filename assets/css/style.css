@@ -288,10 +288,15 @@ footer {
 }
 
 /*faq retractable secton*/
+.faq-image {
+    background-image: url(../images/faq-image.jpg);
+}
+
 .faq {
     text-align: center;
     max-width: 1000px;
     margin: 0 auto;
+    background-color: #F8F4E3;
 }
 
 .faq h2 {
@@ -329,12 +334,19 @@ footer {
 }
 
 input+label+.content{
-    display: none;
+    opacity: 0;
+    height: 0;
+    font-size: 0;
+    padding: 0 25;
+    transition: ease .5s;
 }
 
 input:checked+label+.content {
-    display: block;
-}
+    opacity: 1;
+    height: 120px;
+    font-size: 14px;
+    padding: 10px 25px;
+}    
 /*For larger to medium screens 1200px and down*/
 
 @media screen and (max-width: 1200px) {
