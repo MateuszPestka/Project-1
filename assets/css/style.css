@@ -261,7 +261,7 @@ footer {
     padding: 10px;
     top: 50%;
     transform: translate( 0, 50%);
-    border: 1px solid rgba(248, 244, 227, 0.7);
+    border: 1px solid;
     border-radius: 5px;
 }
 
@@ -343,7 +343,7 @@ input+label+.content{
     opacity: 0;
     height: 0;
     font-size: 0;
-    padding: 0 25;
+    padding: 0 25px;
     transition: ease .5s;
 }
 
@@ -476,7 +476,7 @@ input:checked+label+.content {
         font-size: 120%;
         letter-spacing: .05rem;
         margin-left: 8%;
-        margin-top: none;
+        margin-top: 0;
     }
 
     #sign-up {
