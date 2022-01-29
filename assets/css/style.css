@@ -290,6 +290,7 @@ footer {
 /*faq retractable secton*/
 .faq-image {
     background-image: url(../images/faq-image.jpg);
+    background-repeat: no-repeat;
 }
 
 .faq {
@@ -297,11 +298,18 @@ footer {
     max-width: 1000px;
     margin: 0 auto;
     background-color: #F8F4E3;
+    min-height: 700px;
 }
 
 .faq h2 {
-    font-family:  'Bree Serif', serif;
     font-size: 200%;
+    text-transform: capitalize;
+    font-family:  'Bree Serif', serif;
+}
+
+.big-faq {
+    font-family:  'Bree Serif', serif;
+    font-size: 150%;
     text-transform: capitalize;
 }
 
@@ -311,7 +319,7 @@ footer {
 
 .faq label {
     display: block;
-    height: 50px;
+    height: 40px;
     padding: 10px 30px;
     margin-bottom: 1px;
     cursor: pointer;
@@ -327,7 +335,6 @@ footer {
 .content {
     background-color: #F8F4E3;
     padding: 10px 25px;
-    border: 1px solid #1F5B3A;
     margin: 0 0 1px 0;
     border-radius: 3px;
 }
@@ -342,9 +349,10 @@ input+label+.content{
 
 input:checked+label+.content {
     opacity: 1;
-    height: 120px;
+    height: 70px;
     font-size: 14px;
-    padding: 10px 25px;
+    padding: 10px 10px;
+    font-size: 120%;
 }    
 /*For larger to medium screens 1200px and down*/
 
