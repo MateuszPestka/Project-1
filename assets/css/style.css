@@ -19,7 +19,7 @@ header {
     font-family: 'Lobster', cursive;
     background-color: #F8F4E3;
     overflow: auto;
-    border-bottom: 1px solid #1F5B3A;
+
 }
 
 #logo {
@@ -303,7 +303,6 @@ footer {
     font-family:  'Bree Serif', serif;
     font-size: 200%;
     text-transform: capitalize;
-    margin-top: 50px;
 }
 
 .faq input {
