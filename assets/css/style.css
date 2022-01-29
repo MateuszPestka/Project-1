@@ -351,7 +351,7 @@ input:checked+label+.content {
     opacity: 1;
     height: 70px;
     font-size: 14px;
-    padding: 10px 10px;
+    padding: 10px 25px;
     font-size: 120%;
 }    
 /*For larger to medium screens 1200px and down*/
@@ -444,7 +444,6 @@ input:checked+label+.content {
     #menu {
         font-size: 100%;
         margin-left: auto;
-        /*margin-right: .5rem;*/
     }
 
     footer div {
@@ -453,6 +452,11 @@ input:checked+label+.content {
         text-align: center;
         margin-left: auto;
     }
+
+    input:checked+label+.content {
+        height: 120px;
+        font-size: 100%;
+    }    
 }
 
 /*For smaller phones screens below 400px*/
@@ -477,4 +481,8 @@ input:checked+label+.content {
     #sign-up {
         padding-right: 0;
     }
+
+    input:checked+label+.content {
+        font-size: 100%;
+    }    
 }
