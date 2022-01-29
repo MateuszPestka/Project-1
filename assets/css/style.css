@@ -442,9 +442,17 @@ input:checked+label+.content {
 @media screen and (max-width: 525px) {
 
     #menu {
-        font-size: 120%;
-        margin-left: auto;
+        font-size: 150%;
+        letter-spacing: .05rem;
+        margin-left: 15%;
+        margin-top: 0;
     }
+
+    #logo {
+        margin-left: 14%;
+        margin-right: 0;
+    }
+    
 
     footer div {
         height: 100px;
@@ -470,17 +478,23 @@ input:checked+label+.content {
 
     #logo {
         font-size: 225%;
+        margin-left: 15%;
+        margin-right: 0;
     }
 
     #menu {
-        font-size: 120%;
+        font-size: 150%;
         letter-spacing: .05rem;
-        margin-left: 8%;
+        margin-left: 15%;
         margin-top: 0;
     }
 
     #sign-up {
         padding-right: 0;
+    }
+
+    .button {
+        margin-left: 35%;
     }
 
     input:checked+label+.content {
