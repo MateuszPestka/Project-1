@@ -442,7 +442,7 @@ input:checked+label+.content {
 @media screen and (max-width: 525px) {
 
     #menu {
-        font-size: 100%;
+        font-size: 120%;
         margin-left: auto;
     }
 
@@ -473,9 +473,10 @@ input:checked+label+.content {
     }
 
     #menu {
-        font-size: 90%;
+        font-size: 120%;
         letter-spacing: .05rem;
-        margin-left: 2%;
+        margin-left: 8%;
+        margin-top: none;
     }
 
     #sign-up {
