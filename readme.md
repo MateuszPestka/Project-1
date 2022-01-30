@@ -126,3 +126,23 @@ My desktop lighthouse test was extremely positive with all my results reaching 1
 My Mobile score was slightly less and I could not identify the reason why it wasn't going up.
 
 ![Mobile lighthouse test](assets/images/mobile-lighthouse.PNG)
+
+### **Validator Testing**
+
+- **HTML**
+
+  - No errors or warnings reported when passing through [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmateuszpestka.github.io%2FProject-1%2F) 
+
+- **CSS**
+
+  - No errors or warnings when passing through [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmateuszpestka.github.io%2FProject-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### **Unfixed Bugs**
+
+- **Package Hover**
+
+  - I have discovered a minor bug in my package hover. When moving the cursor from the right package to the left there is a slight visual bug that causes the right package to cut off a small bit of the package on the left. This causes the background image on the left to suddenly pop out after that second. I could not find any fix to this as the CSS for the hover package is the same for all 4 packages and it only happens when transitioning from the right to the left. This bug does not occur when transitioning from the left to the right.
+
+- **Flavicon**
+
+  - My Flavicon does not appear on my fully deployed website. When I use 'python3 http.server' the flavicon appears with no issues but when my website is fully deployed it does not appear.
