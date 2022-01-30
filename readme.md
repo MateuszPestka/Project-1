@@ -85,11 +85,15 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
 
 ### **Website Functionality Testing**
 
-- Links Testing:
+- **Links Testing**:
   - I tested all my links in my website and realised that my packages weren't linked to my contact us page.
-  - Fix: I replace the current placeholder # with the right href to link to contact us page.
+  - **Fix**: I replace the current placeholder # with the right href to link to contact us page.
 
   - All other links are functional and links to external sites in the footer open in a new tab.
 
 - **Form Testing**
-  -
+  - During the testing of my form I realised my Phone number input only allowed for ten characters and required at least 13 with dashes inbetween each 3 number.
+  - **Fix**: I removed the dashes inbetween the allowed pattern of numbers and increased my max-length to 14 to allow for prefixes like +353.
+
+  - My Enquire button did not have a hover attribute and when hovered over did not look clickable.
+  - **Fix**: I added a hover attribute in my CSS file making the button change color and improving UX making it easier to recognise as a button.
