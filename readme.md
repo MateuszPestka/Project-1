@@ -97,3 +97,18 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
 
   - My Enquire button did not have a hover attribute and when hovered over did not look clickable.
   - **Fix**: I added a hover attribute in my CSS file making the button change color and improving UX making it easier to recognise as a button.
+
+- **FAQ Testing**
+
+  - The accordion style FAQ section works with no issues. The transition works without a problem allowing for a smooth satisfying UX.
+
+- **Background Image Slideshow**
+
+  - The background image slideshow works smoothly and without any problems that could cause a harmful UX. It adjust to screen size and works on different sized devices.
+
+- **Package Hover**
+
+  - My package hover works generally smoothly with only one slight bug when switching too fast from the right packages to the one on the left. The package on the right seems to clip the package on the left for a second before the package on the left pops up over it. 
+  - **Fix**: I could not identify what is causing this in the code as all packages have the same hover attribute from class '.package:hover'. This is only a small bug and does not harm UX in any extreme measure as it only blocks a small side of the left package and for a second.
+
+  
