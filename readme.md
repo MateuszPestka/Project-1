@@ -146,3 +146,34 @@ My Mobile score was slightly less and I could not identify the reason why it was
 - **Flavicon**
 
   - My Flavicon does not appear on my fully deployed website. When I use 'python3 http.server' the flavicon appears with no issues but when my website is fully deployed it does not appear.
+
+## **Deployment**
+
+- I deployed the site to GitHub Pages. These are the steps I took to deploy it:
+
+  - In my GitHub repository, I navigated to the settings menu.
+  - I went down to the GitHub Pages section and clicked the link.
+  - In the source I selected the branch to Main Branch.
+  - Once selected I clicked save and the page refreshes deploying the page giving me a detailed display ribbon to indicate the finishing of deployment.
+
+## **Credits**
+
+### **Content**
+
+- **Background Slideshow**
+
+  - I learnt how to make a background slideshow of this tutorial from [Youtube](https://www.youtube.com/watch?v=P0Ot9qE5was)
+
+- **Accordion FAQ**
+
+  - I learnt how to make an accordion style FAQ were taken of this website: [Supfort](https://supfort.com/pure-css-accordion-without-javascript)
+
+  - The transition for the accordion style FAQ were taken from [Supfort](https://supfort.com/css-accordion-animation)
+
+  - I have made slight changes of the codes above to suit my website but the I learnt the code and have used substantial parts of the code above for my website.
+
+### **Media**
+
+- **Images**
+
+  - All my images were taken of [Pexels](https://www.pexels.com/)
