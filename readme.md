@@ -63,8 +63,8 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
 
 - **Contact Us Page**
 
-  - The contact us page is designed to be simple and easy to use like the rest of the website. The user has to fill out a form that requires basic information for them to be contacted.
-  - The inclusion of a preferred way of contact is to promote easy access for people generally anxious of phone calls. This will allow the user to have a positive experience with Vegan Drop Meals and a none stressful way to contact the dieticians.
+  - The contact us page is designed to be simple and easy to use like the rest of the website. The user has to fill out a form that requires basic information for them to be    contacted.
+  - The inclusion of a preferred way of contact is to promote easy access for people generally anxious of phone calls. This will allow the user to have a positive experience   with Vegan Drop Meals and a none stressful way to contact the dieticians.
   - The phone number has a set limit of characters to prevent any false numbers being input to the field.
 
 ![Contact us form](assets/images/contactus-form.PNG)
