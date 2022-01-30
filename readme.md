@@ -69,3 +69,16 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
 
 ![Contact us form](assets/images/contactus-form.PNG)
 
+- **Features left to implement**
+
+  - **Back To Top Button**
+
+    - A back to top button would improve UX allowing a quick and easy return to the navigation bar to browse the different sections of the website.
+    - It would also reduce frustration as scrolling tends to be tedious and can cause a user not to return to the website.
+
+  - **Why Vegan Page**
+  
+    - A Why Vegan page would further encourage users to change their diet. This page would be dedicated to studies done and health benefits of a plant based diet.
+    - This would allow users to gather information on a vegan or plant based diet in one source without having to travel to other websites or look for the information themselves. This would make the website more beneficial to the user and promote the service itself.
+
+## **Testing** 
