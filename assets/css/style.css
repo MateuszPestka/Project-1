@@ -505,4 +505,12 @@ input:checked+label+.content {
     input:checked+label+.content {
         font-size: 100%;
     }    
+
+    .faq h2 {
+        font-size: 150%;
+    }
+
+    .big-faq {
+        font-size: 100%;
+    }
 }

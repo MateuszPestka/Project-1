@@ -143,9 +143,9 @@ My Mobile score was slightly less and I could not identify the reason why it was
 
   - I have discovered a minor bug in my package hover. When moving the cursor from the right package to the left there is a slight visual bug that causes the right package to cut off a small bit of the package on the left. This causes the background image on the left to suddenly pop out after that second. I could not find any fix to this as the CSS for the hover package is the same for all 4 packages and it only happens when transitioning from the right to the left. This bug does not occur when transitioning from the left to the right.
 
-- **Flavicon**
+- **Favicon**
 
-  - My Flavicon does not appear on my fully deployed website. When I use 'python3 http.server' the flavicon appears with no issues but when my website is fully deployed it does not appear.
+  - My Favicon does not appear on my fully deployed website. When I use 'python3 http.server' the favicon appears with no issues but when my website is fully deployed it does not appear.
 
 ## **Deployment**
 
