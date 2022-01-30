@@ -40,6 +40,7 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
   - Each package and background image of the package is a clickable link which also expands when hovered. This will allow the user to easily choose a package and be transfered to the contact us page.
 
 ![Package section not hovered over](assets/images/package-readme.PNG)
+
 ![Package when hovered over](assets/images/package-hover.PNG)
 
 - **The Footer**
@@ -49,3 +50,22 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
   - The inspirational message is designed to be discrete yet promote the move to a vegan or plant based diet.
 
 ![Image of footer](assets/images/footer-img.PNG)
+
+- **The FAQ Page**
+  
+  - The FAQ section is a retractable accordion style section that allows users to only see the answers for questions that they want answered.
+  - The accordion style design will reducce frustration for the user when they just want an answer to one question.
+  - This section aims to inform the user about the different options and answer any questions that they may need an answer for before deciding to contact us.
+
+![FAQ Questions when not expanded](assets/images/faq-not-expanded.PNG)
+
+![FAQ Questions when partially expanded](assets/images/faq-part-expanded.PNG)
+
+- **Contact Us Page**
+
+  - The contact us page is designed to be simple and easy to use like the rest of the website. The user has to fill out a form that requires basic information for them to be contacted.
+  - The inclusion of a preferred way of contact is to promote easy access for people generally anxious of phone calls. This will allow the user to have a positive experience with Vegan Drop Meals and a none stressful way to contact the dieticians.
+  - The phone number has a set limit of characters to prevent any false numbers being input to the field.
+
+![Contact us form](assets/images/contactus-form.PNG)
+
