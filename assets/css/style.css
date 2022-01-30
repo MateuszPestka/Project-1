@@ -287,6 +287,11 @@ footer {
     margin-left: 40%;
 }
 
+.button:hover {
+    background-color: #625418;
+    cursor: pointer;
+}
+
 /*faq retractable secton*/
 .faq-image {
     background-image: url(../images/faq-image.jpg);

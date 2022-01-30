@@ -82,3 +82,14 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
     - This would allow users to gather information on a vegan or plant based diet in one source without having to travel to other websites or look for the information themselves. This would make the website more beneficial to the user and promote the service itself.
 
 ## **Testing** 
+
+### **Website Functionality Testing**
+
+- Links Testing:
+  - I tested all my links in my website and realised that my packages weren't linked to my contact us page.
+  - Fix: I replace the current placeholder # with the right href to link to contact us page.
+
+  - All other links are functional and links to external sites in the footer open in a new tab.
+
+- **Form Testing**
+  -
