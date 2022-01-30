@@ -111,4 +111,18 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
   - My package hover works generally smoothly with only one slight bug when switching too fast from the right packages to the one on the left. The package on the right seems to clip the package on the left for a second before the package on the left pops up over it. 
   - **Fix**: I could not identify what is causing this in the code as all packages have the same hover attribute from class '.package:hover'. This is only a small bug and does not harm UX in any extreme measure as it only blocks a small side of the left package and for a second.
 
-  
+### **Lighthouse Testing**
+
+My lighthouse testings highly positive with my desktop reaching 100 on all aspects.
+
+**Lighthouse Desktop Test**
+
+My desktop lighthouse test was extremely positive with all my results reaching 100.
+
+![Desktop lighthouse test](assets/images/desktop-lighthouse.PNG)
+
+**Lighthouse Mobile Test**
+
+My Mobile score was slightly less and I could not identify the reason why it wasn't going up.
+
+![Mobile lighthouse test](assets/images/mobile-lighthouse.PNG)
