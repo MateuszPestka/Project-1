@@ -1,5 +1,5 @@
 # **Vegan Drop Meals**
-Vegan drop meals is a meal delivery service that currently covers areas in Dublin,Galway and Cork. Vegan Drop Meals aims to provide an easy way for people to transition to a plant based diet and to give people the right amount of calories and nutrients to sustain all their activities. This site will target people who want to turn to a plant-based, vegan or vegetarian diet.
+Vegan drop meals is a meal delivery service that currently covers areas in Dublin, Galway and Cork. Vegan Drop Meals aims to provide an easy way for people to transition to a plant based diet and to give people the right amount of calories and nutrients to sustain all their activities. This site will target people who want to turn to a plant-based, vegan or vegetarian diet.
 
  It will also target people who already are on one of these diets but struggle to find time to cook or get the right nutrients into their body which is extremely common in any of these diets. As meat is a HBV protein it provides you with all the protien you need Vegan Drop Meals will provide you with the right amount of different LBV proteins as those are present in vegetables.
 
@@ -10,14 +10,14 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
  - **Navigaton Bar**
 
    - The navigation bar is exactly the same on all three of the Vegan Drop Meals website allowing users to easily navigate back to the home page or anywhere in the website.
-   - The logo and the navigation menu are all the same across the website with resposive elements showing them what specific page they are on.
+   - The logo and the navigation menu are all the same across the website with responsive elements showing them what specific page they are on.
 
 ![Navigation bar](assets/images/nav-bar.PNG)
 
 - **Landing Page**
 
   - The landing page is a slideshow of images that allows the viewer to see the different meals that Vegan Drop Meals offers.
-  - The slideshow will allow viewers to quickly identify the website is a meal delivery service.
+  - The slideshow will allow viewers to quickly identify the website as a meal delivery service.
   - The animation of a slideshow will grab the users attention as they aren't bored of a single image placed in the landing page.
   - This features five different images to allow the user to see a different image each time.
 
@@ -27,9 +27,9 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
 
 - **About Section**
 
-  - The about section aims to provide a quick description of the service that vegan drop meals provides and how to contact the deiticians and get started on the plan.
-  - The section also aims to give an iinsight into the service and the ingredients used.
-  - The about section features a link inside the contact our dieticians section that will allow users to wuickly navigate the website without having to go to the top of the page.
+  - The about section aims to provide a quick description of the service that vegan drop meals provides and how to contact the dieticians and get started on the plan.
+  - The section also aims to give an insight into the service and the ingredients used.
+  - The about section features a link inside the contact our dieticians section that will allow users to quickly navigate the website without having to go to the top of the page.
 
 ![About section](assets/images/about-img.PNG)
 
@@ -46,7 +46,7 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
 - **The Footer**
 
   - The footer has an extremely minimalistic design which incorporates to the flow of the website by not changing colors and matching the color scheme.
-  - There is four icons that link to different social media platforms being Instagram, Facebook, Twitter and Youtube.
+  - There are four icons that link to different social media platforms being Instagram, Facebook, Twitter and Youtube.
   - The inspirational message is designed to be discrete yet promote the move to a vegan or plant based diet.
 
 ![Image of footer](assets/images/footer-img.PNG)
@@ -54,7 +54,7 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
 - **The FAQ Page**
   
   - The FAQ section is a retractable accordion style section that allows users to only see the answers for questions that they want answered.
-  - The accordion style design will reducce frustration for the user when they just want an answer to one question.
+  - The accordion style design will reduce frustration for the user when they just want an answer to one question.
   - This section aims to inform the user about the different options and answer any questions that they may need an answer for before deciding to contact us.
 
 ![FAQ Questions when not expanded](assets/images/faq-not-expanded.PNG)
@@ -64,7 +64,7 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
 - **Contact Us Page**
 
   - The contact us page is designed to be simple and easy to use like the rest of the website. The user has to fill out a form that requires basic information for them to be    contacted.
-  - The inclusion of a preferred way of contact is to promote easy access for people generally anxious of phone calls. This will allow the user to have a positive experience   with Vegan Drop Meals and a none stressful way to contact the dieticians.
+  - The inclusion of a preferred way of contact is to promote easy access for people generally anxious of phone calls. This will allow the user to have a positive experience   with Vegan Drop Meals and a non stressful way to contact the dieticians.
   - The phone number has a set limit of characters to prevent any false numbers being input to the field.
 
 ![Contact us form](assets/images/contactus-form.PNG)
@@ -93,7 +93,7 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
 
 - **Form Testing**
   - During the testing of my form I realised my Phone number input only allowed for ten characters and required at least 13 with dashes inbetween each 3 number.
-  - **Fix**: I removed the dashes inbetween the allowed pattern of numbers and increased my max-length to 14 to allow for prefixes like +353.
+  - **Fix**: I removed the dashes inbetween the allowed pattern of numbers and increased my max-length to 14 to allow for prefixes such as +353.
 
   - My Enquire button did not have a hover attribute and when hovered over did not look clickable.
   - **Fix**: I added a hover attribute in my CSS file making the button change color and improving UX making it easier to recognise as a button.
@@ -116,7 +116,7 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
 - **Phone**
   
   - Vegan Drop Meals is accesible on all devices with only minor changes to the websites design.
-  - The landing page on phones centres the logo and the nav bar.
+  - The landing page on phones centres the logo and the navigation bar.
 
 ![Phone landing page](assets/images/phone-landing.PNG)
 
@@ -136,7 +136,7 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
 
 ### **Lighthouse Testing**
 
-My lighthouse testings highly positive with my desktop reaching 100 on all aspects.
+My lighthouse testings resulted to be highly positive with my desktop reaching 100 on all aspects.
 
 **Lighthouse Desktop Test**
 
@@ -146,7 +146,7 @@ My desktop lighthouse test was extremely positive with all my results reaching 1
 
 **Lighthouse Mobile Test**
 
-My Mobile score was slightly less and I could not identify the reason why it wasn't going up.
+My Mobile score was slightly less and I could not identify the reason why it wasn't improving.
 
 ![Mobile lighthouse test](assets/images/mobile-lighthouse.PNG)
 
@@ -193,7 +193,7 @@ My Mobile score was slightly less and I could not identify the reason why it was
 
   - The transition for the accordion style FAQ were taken from [Supfort](https://supfort.com/css-accordion-animation)
 
-  - I have made slight changes of the codes above to suit my website but the I learnt the code and have used substantial parts of the code above for my website.
+  - I have made slight changes of the codes above to suit my website but I learnt the code from the website and have used substantial parts of the code above for the website.
 
 ### **Media**
 
