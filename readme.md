@@ -111,6 +111,29 @@ Vegan drop meals is a meal delivery service that currently covers areas in Dubli
   - My package hover works generally smoothly with only one slight bug when switching too fast from the right packages to the one on the left. The package on the right seems to clip the package on the left for a second before the package on the left pops up over it. 
   - **Fix**: I could not identify what is causing this in the code as all packages have the same hover attribute from class '.package:hover'. This is only a small bug and does not harm UX in any extreme measure as it only blocks a small side of the left package and for a second.
 
+### Website On Different Screens
+
+- **Phone**
+  
+  - Vegan Drop Meals is accesible on all devices with only minor changes to the websites design.
+  - The landing page on phones centres the logo and the nav bar.
+
+![Phone landing page](assets/images/phone-landing.PNG)
+
+  - The package section changes and stacks on one another.
+
+![Package section](assets/images/packages-phone.PNG)
+
+- **Ipad Pro**
+
+  - The website is also designed to work on ipads of different sizes to allow accessibility to all devices.
+
+![Ipad pro landing page](assets/images/ipadpro-landing.PNG)
+
+  - The sign up section fits the screen perfectly
+
+![Ipad pro sign up page](assets/images/ipadpro-sign.PNG)
+
 ### **Lighthouse Testing**
 
 My lighthouse testings highly positive with my desktop reaching 100 on all aspects.
